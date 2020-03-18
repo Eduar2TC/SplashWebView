@@ -15,6 +15,12 @@
 		52486DCE2421984700C85DFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52486DCC2421984700C85DFB /* LaunchScreen.storyboard */; };
 		52486DD92421984700C85DFB /* SplashWebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52486DD82421984700C85DFB /* SplashWebViewTests.swift */; };
 		52486DE42421984700C85DFB /* SplashWebViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52486DE32421984700C85DFB /* SplashWebViewUITests.swift */; };
+		52486DF72421BAAB00C85DFB /* webView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52486DF62421BAAB00C85DFB /* webView.swift */; };
+		52486DFC2421BDC700C85DFB /* Práctica 9.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52486DF92421BDC600C85DFB /* Práctica 9.pdf */; };
+		52486DFD2421BDC700C85DFB /* Práctica 7.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52486DFA2421BDC600C85DFB /* Práctica 7.pdf */; };
+		52486DFE2421BDC700C85DFB /* Práctica 8.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52486DFB2421BDC700C85DFB /* Práctica 8.pdf */; };
+		52486E022421C1F900C85DFB /* pdf-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52486E012421C1F900C85DFB /* pdf-icon.png */; };
+		52486E042421CDA700C85DFB /* pdf-viwer-splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 52486E032421CDA700C85DFB /* pdf-viwer-splash.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		52486DDF2421984700C85DFB /* SplashWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplashWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52486DE32421984700C85DFB /* SplashWebViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashWebViewUITests.swift; sourceTree = "<group>"; };
 		52486DE52421984700C85DFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52486DF62421BAAB00C85DFB /* webView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webView.swift; sourceTree = "<group>"; };
+		52486DF92421BDC600C85DFB /* Práctica 9.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Práctica 9.pdf"; sourceTree = "<group>"; };
+		52486DFA2421BDC600C85DFB /* Práctica 7.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Práctica 7.pdf"; sourceTree = "<group>"; };
+		52486DFB2421BDC700C85DFB /* Práctica 8.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Práctica 8.pdf"; sourceTree = "<group>"; };
+		52486E012421C1F900C85DFB /* pdf-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pdf-icon.png"; sourceTree = "<group>"; };
+		52486E032421CDA700C85DFB /* pdf-viwer-splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pdf-viwer-splash.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +111,13 @@
 		52486DC02421984200C85DFB /* SplashWebView */ = {
 			isa = PBXGroup;
 			children = (
+				52486DF82421BD2500C85DFB /* files */,
+				52486DF124219C8100C85DFB /* img */,
 				52486DC12421984200C85DFB /* AppDelegate.swift */,
 				52486DC32421984200C85DFB /* SceneDelegate.swift */,
 				52486DC52421984200C85DFB /* ViewController.swift */,
 				52486DC72421984200C85DFB /* Main.storyboard */,
+				52486DF62421BAAB00C85DFB /* webView.swift */,
 				52486DCA2421984700C85DFB /* Assets.xcassets */,
 				52486DCC2421984700C85DFB /* LaunchScreen.storyboard */,
 				52486DCF2421984700C85DFB /* Info.plist */,
@@ -126,6 +141,25 @@
 				52486DE52421984700C85DFB /* Info.plist */,
 			);
 			path = SplashWebViewUITests;
+			sourceTree = "<group>";
+		};
+		52486DF124219C8100C85DFB /* img */ = {
+			isa = PBXGroup;
+			children = (
+				52486E032421CDA700C85DFB /* pdf-viwer-splash.png */,
+				52486E012421C1F900C85DFB /* pdf-icon.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		52486DF82421BD2500C85DFB /* files */ = {
+			isa = PBXGroup;
+			children = (
+				52486DFA2421BDC600C85DFB /* Práctica 7.pdf */,
+				52486DFB2421BDC700C85DFB /* Práctica 8.pdf */,
+				52486DF92421BDC600C85DFB /* Práctica 9.pdf */,
+			);
+			path = files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +266,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52486DFD2421BDC700C85DFB /* Práctica 7.pdf in Resources */,
+				52486E042421CDA700C85DFB /* pdf-viwer-splash.png in Resources */,
+				52486DFE2421BDC700C85DFB /* Práctica 8.pdf in Resources */,
 				52486DCE2421984700C85DFB /* LaunchScreen.storyboard in Resources */,
 				52486DCB2421984700C85DFB /* Assets.xcassets in Resources */,
+				52486DFC2421BDC700C85DFB /* Práctica 9.pdf in Resources */,
 				52486DC92421984200C85DFB /* Main.storyboard in Resources */,
+				52486E022421C1F900C85DFB /* pdf-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52486DC62421984200C85DFB /* ViewController.swift in Sources */,
+				52486DF72421BAAB00C85DFB /* webView.swift in Sources */,
 				52486DC22421984200C85DFB /* AppDelegate.swift in Sources */,
 				52486DC42421984200C85DFB /* SceneDelegate.swift in Sources */,
 			);
